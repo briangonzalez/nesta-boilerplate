@@ -1,0 +1,19 @@
+
+#content
+  %article(role="main")
+    ~ @page.to_html(self)
+
+    %section.pages
+      = article_summaries(@page.pages)
+
+    - unless @page.articles.empty?
+      %section.articles
+        %header
+          %h1= articles_heading
+        = article_summaries(@page.articles)
+
+    = haml :page_meta, :layout => false, :locals => { :page => @page }
+
+  = haml :comments, :layout => false
+
+= haml :sidebar, :layout => false

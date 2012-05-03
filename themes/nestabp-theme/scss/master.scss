@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+// Semantic Grid System - http://semantic.gs
+@import "grid.scss";
+
+// Compass imports
+// @import "compass/reset";
+@import "compass/typography";
+@import "compass/utilities";
+@import "compass/css3";
+
+// HTML5 Boilerplate import
+@import "h5bp";
+
+// H5BP includes
+@include h5bp-display;
+@include h5bp-selection;
+@include h5bp-base;
+@include h5bp-links;
+@include h5bp-typography;
+@include h5bp-lists;
+@include h5bp-embeds;
+@include h5bp-figures;
+@include h5bp-forms;
+@include h5bp-tables;
+
+// Semantic Grid Defaults
+$column-width: 60;
+$gutter-width: 20;
+$columns: 12;
+$total-width: 100%;
+
+
+
+ // ----------------------------------------------------------------------------------
+ //      ___                                                   ___           ___     
+ //     /\__\                                                 /\__\         /\__\    
+ //    /:/ _/_         ___           ___                     /:/ _/_       /:/ _/_   
+ //   /:/ /\  \       /\__\         /|  |                   /:/ /\__\     /:/ /\  \  
+ //  /:/ /::\  \     /:/  /        |:|  |    ___     ___   /:/ /:/ _/_   /:/ /::\  \ 
+ // /:/_/:/\:\__\   /:/__/         |:|  |   /\  \   /\__\ /:/_/:/ /\__\ /:/_/:/\:\__\
+ // \:\/:/ /:/  /  /::\  \       __|:|__|   \:\  \ /:/  / \:\/:/ /:/  / \:\/:/ /:/  /
+ //  \::/ /:/  /  /:/\:\  \     /::::\  \    \:\  /:/  /   \::/_/:/  /   \::/ /:/  / 
+ //   \/_/:/  /   \/__\:\  \    ~~~~\:\  \    \:\/:/  /     \:\/:/  /     \/_/:/  /  
+ //     /:/  /         \:\__\        \:\__\    \::/  /       \::/  /        /:/  /   
+ //     \/__/           \/__/         \/__/     \/__/         \/__/         \/__/    
+ //
+ // ----------------------------------------------------------------------------------
+ // ----------------------------------------------------------------------------------
+
+@mixin container{
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+#container{
+  @include container;
+}
+
+article{ margin-bottom: 50px }
+
+h1{ font-size: 40px }
+h1 a { font-size: 32px }
+
+.meta, .quiet{ font-size: 80% }
+.quiet{ margin-top: -10px; color: #999; font-style: oblique }
+
+pre{  @include border-radius(5px); color: white; background: black; padding: 5px }
+
+@media all and (max-width: 850px){ 
+  #git-ribbon{ display: none }
+}
