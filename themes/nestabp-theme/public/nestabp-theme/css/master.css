@@ -306,6 +306,7 @@ pre {
   color: white;
   background: black;
   padding: 5px;
+  font-size: 12px;
 }
 
 @media all and (max-width: 850px) {
