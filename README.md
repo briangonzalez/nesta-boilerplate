@@ -4,6 +4,7 @@
 Nesta Boilerplate is simple to setup and comes with baked-in support for [HTML Boilerplate](http://html5boilerplate.com/), [Compass](http://compass-style.org/) (and Sass/Haml), [Semantic GS](http://semantic.gs/), [Capistrano](https://github.com/capistrano/capistrano/wiki/Documentation-v2.x), and [jQuery](http://jquery.com/).
 
 First things first, learn about [Nesta](http://nestacms.com/) then get started like so:
+
     $ git clone git@github.com:briangonzalez/nesta-boilerplate.git
     $ cd nesta-boilerplate
     $ bundle
