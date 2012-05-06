@@ -61,6 +61,6 @@ google_analytics_code: "UA-5991707-6"
 #
 # Don't forget to uncomment the "production:" line too...
 production:
-  cache: false 
+  cache: true
   content: content
   google_analytics_code: "UA-5991707-6"
