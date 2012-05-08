@@ -2,7 +2,7 @@ Date: 3 May 2012
 Categories: nesta, noob
 
 # Getting Started
-Nesta Boilerplate is simple to setup and comes with baked-in support for [HTML Boilerplate](http://html5boilerplate.com/), [Compass](http://compass-style.org/) (and Sass/Haml), [Semantic GS](http://semantic.gs/), [Capistrano](https://github.com/capistrano/capistrano/wiki/Documentation-v2.x), and [jQuery](http://jquery.com/).
+Nesta Boilerplate is simple to setup and comes with baked-in support for [Compass](http://compass-style.org/) (and Sass/Haml), [Capistrano](https://github.com/capistrano/capistrano/wiki/Documentation-v2.x) with semi-optional support for [HTML Boilerplate](http://html5boilerplate.com/), [jQuery](http://jquery.com/), and [Semantic GS](http://semantic.gs/), .
 
 First things first, learn about [Nesta](http://nestacms.com/) then get started like so:
 <pre class="prettyprint lang-ruby">
@@ -18,6 +18,24 @@ By default, Capistrano is setup to deploy from your current directory, no need t
 
 Also, you'll want to edit `config/deploy.rb` with all of your server-specific info.
 
+## What you get from Nesta Boilerplate
+
+### Baked-In
+
+* Compass
+* Capistrano 
+
+### Semi-Optional
+
+* HTML5 Boilerplate 
+* jQuery
+* Semantic Grid System
+
+By using Nesta Boilerplate, you get by default Compass & Capistrano configured and ready to go. I recommend modifying or installing your own theme by replacing/deleting what's in 
+
+<pre class="prettyprint">themes/nestabp-theme</pre>
+
+with your own theme. The theme is basically a convenience for those wanting HTML5 Boilerplate, jQuery, and a responsive grid -- a common paradigm in web development. The theme is built on essentially 10 lines of CSS, so do what you will with it.
 
 ## Credit where credit's due
 Many tips 'n tricks were taken from [Wynn Netherland's Nesta blog](https://github.com/pengwynn/wynn), [this post](http://scott-martin.com/setting-up) by Scott Martin, and Adam Stac's [Nesta Boostrap](https://github.com/adamstac/nesta-bootstrap). And of course, thanks to [Graham Ashton](http://twitter.com/grahamashton) for creating Nesta CMS.
