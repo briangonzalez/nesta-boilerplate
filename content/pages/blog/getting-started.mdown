@@ -2,7 +2,7 @@ Date: 3 May 2012
 Categories: nesta, noob
 
 # Getting Started
-Nesta Boilerplate is simple to setup and comes with baked-in support for [Compass](http://compass-style.org/) (and Sass/Haml), [Capistrano](https://github.com/capistrano/capistrano/wiki/Documentation-v2.x) with semi-optional support for [HTML Boilerplate](http://html5boilerplate.com/), [jQuery](http://jquery.com/), and [Semantic GS](http://semantic.gs/), .
+Nesta Boilerplate is simple to setup and comes with baked-in support for [Compass](http://compass-style.org/) (and Sass/Haml), [Capistrano](https://github.com/capistrano/capistrano/wiki/Documentation-v2.x) with semi-optional support for [HTML Boilerplate](http://html5boilerplate.com/), [jQuery](http://jquery.com/), and [Semantic GS](http://semantic.gs/).
 
 First things first, learn about [Nesta](http://nestacms.com/) then get started like so:
 <pre class="prettyprint lang-ruby">
