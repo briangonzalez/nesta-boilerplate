@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'nesta', '0.9.13'
+gem "nesta", :git    => "git://github.com/gma/nesta.git"
 gem 'maruku'
 gem 'rack-pygmoku'
 
