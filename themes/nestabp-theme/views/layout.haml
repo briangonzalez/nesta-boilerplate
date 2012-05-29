@@ -8,8 +8,8 @@
       %meta{ :name => "keywords", :content => @keywords } 
     %title= @title
     <!--[if ! lte IE 6]><!-->
-    %link{ :href => "#{url('/nestabp-theme/css/master.css')}", :media => "screen", :rel => "stylesheet"}
-    %link{ :href => "#{url('/nestabp-theme/css/prettify.css')}", :media => "screen", :rel => "stylesheet" }
+    %link{ :href => url("/#{Nesta::Config.theme}/css/master.css"), :media => "screen", :rel => "stylesheet"}
+    %link{ :href => url("/#{Nesta::Config.theme}/css/prettify.css"), :media => "screen", :rel => "stylesheet" }
 
     <!--<![endif]-->
     /[if lte IE 6]

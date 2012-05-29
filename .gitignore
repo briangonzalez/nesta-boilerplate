@@ -2,3 +2,4 @@
 .sass-cache
 tmp
 public
+Gemfile.lock
