@@ -4,8 +4,6 @@ gem "nesta", :git    => "git://github.com/gma/nesta.git"
 gem 'maruku'
 gem 'rack-pygmoku'
 
-gem 'capistrano_colors'
-
 gem 'compass' 
 gem 'compass-h5bp'
 gem 'sinatra'
