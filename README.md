@@ -16,6 +16,12 @@ By default, Capistrano is setup to deploy from your current directory, no need t
 
 Also, you'll want to edit `config/deploy.rb` with all of your server-specific info.
 
+## Using Git for Deployment
+
+If you'd like to use Git to deploy your Nesta site, rename `deploy.git.rb` to `deploy.rb` and delete/ or rename the other `deploy.rb` to `deploy.old.rb`. Lastly, rename the folder `deploy.git` to simply `deploy`, then you can:
+    $ cap deploy                  // deploy to stage, or...
+    $ cap production deploy       // deploy to production
+
 ## What you get from Nesta Boilerplate
 
 ### Baked-In

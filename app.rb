@@ -15,6 +15,16 @@ module Nesta
       set :haml, { :format => :html5 }
     end
 
+    helpers do
+      def path
+        request.path
+      end
+
+      def current_url
+        request.url
+      end
+    end
+
     configure :production do
       set :haml, { :ugly => true }
     end
