@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem "nesta", :git    => "git://github.com/gma/nesta.git"
 gem 'maruku'
-gem 'rack-pygmoku'
+gem 'haml-coderay'
 
 gem 'sass'
 gem 'compass' 

@@ -12,7 +12,7 @@ First things first, learn about [Nesta](http://nestacms.com/) then get started l
 
 Then point your browser to [http://127.0.0.1:9393/](http://127.0.0.1:9393/). And voila, you're rockin' some _Nesta Boilerplate_ goodness.
 
-By default, Capistrano is setup to deploy from your current directory, no need to setup a git repo if you don't want. I would, however, recommend creating one and modifying `config/deploy.rb` to use git.
+By default, Capistrano is setup to deploy from your current directory, no need to setup a git repo if you don't want.
 
 Also, you'll want to edit `config/deploy.rb` with all of your server-specific info.
 
@@ -35,6 +35,7 @@ If you'd like to use Git to deploy your Nesta site, rename `deploy.git.rb` to `d
 * HTML5 Boilerplate 
 * jQuery
 * Semantic Grid System
+* Coderay Syntax Highlighting
 
 By using Nesta Boilerplate, you get by default Compass & Capistrano configured and ready to go. I recommend modifying or installing your own theme by replacing/deleting what's in `themes/nestabp-theme` with your own theme. The theme is basically a convenience for those wanting HTML5 Boilerplate, jQuery, and a responsive grid -- a common paradigm in web development. The theme is built on essentially 10 lines of CSS, so do what you will with it.
 

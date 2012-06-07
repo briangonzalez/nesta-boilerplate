@@ -275,6 +275,17 @@ td {
   padding: 0 30px;
 }
 
+pre {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: #eee;
+  padding: 20px;
+  font-size: 12px;
+}
+
 article {
   margin-bottom: 50px;
 }
@@ -292,6 +303,10 @@ h2 {
   margin-top: 50px;
 }
 
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .meta, .quiet {
   font-size: 80%;
 }
@@ -302,20 +317,28 @@ h2 {
   font-style: oblique;
 }
 
-pre {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  color: white;
-  background: black;
-  padding: 5px;
-  font-size: 12px;
-}
-
+/* =Smartphones (portrait and landscape)
+--------------------------------------------------------------------------- */
+/* =Smartphones (landscape)
+--------------------------------------------------------------------------- */
+/* =Smartphones (portrait)
+--------------------------------------------------------------------------- */
+/* =iPads (portrait and landscape)
+--------------------------------------------------------------------------- */
+/* =iPads (landscape)
+--------------------------------------------------------------------------- */
+/* =iPads (portrait)
+--------------------------------------------------------------------------- */
+/* Custom 
+---------------------------------------------------------------------------- */
 @media all and (max-width: 850px) {
   #git-ribbon {
     display: none;
   }
 }
+/* =Desktops and laptops
+--------------------------------------------------------------------------- */
+/* =Large screens
+--------------------------------------------------------------------------- */
+/* =iPhone 4
+--------------------------------------------------------------------------- */

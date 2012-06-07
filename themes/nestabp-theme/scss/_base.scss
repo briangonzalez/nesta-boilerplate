@@ -1,0 +1,14 @@
+//  Here, style "main" items, e.g. body or html. 
+//  Also, here you can set/reset items site-wide. 
+
+// Semantic Grid Defaults
+$column-width: 60;
+$gutter-width: 20;
+$columns: 12;
+$total-width: 100%;
+
+#container{
+  @include container;
+}
+
+pre{  @include border-radius(2px); background: #eee; padding: 20px; font-size: 12px }

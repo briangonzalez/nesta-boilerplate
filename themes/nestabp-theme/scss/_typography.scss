@@ -1,0 +1,14 @@
+//  Keep all site-wide typography here.
+//  Recommendation: use "opt-in" typgraphy everywhere else (http://css-tricks.com/opt-in-typography/)
+//
+
+article{ margin-bottom: 50px }
+
+h1{ font-size: 40px }
+h1 a { font-size: 32px }
+h2 { margin-bottom: 10px; margin-top: 50px}
+
+p{ color: $paragraph }
+
+.meta, .quiet{ font-size: 80% }
+.quiet{ margin-top: -10px; color: #999; font-style: oblique }

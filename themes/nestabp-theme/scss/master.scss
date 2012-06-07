@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 // Semantic Grid System - http://semantic.gs
-@import "grid.scss";
+@import "grid";
 
 // Compass imports
 // @import "compass/reset";
@@ -24,12 +24,6 @@
 @include h5bp-forms;
 @include h5bp-tables;
 
-// Semantic Grid Defaults
-$column-width: 60;
-$gutter-width: 20;
-$columns: 12;
-$total-width: 100%;
-
 
 
  // ----------------------------------------------------------------------------------
@@ -48,27 +42,9 @@ $total-width: 100%;
  // ----------------------------------------------------------------------------------
  // ----------------------------------------------------------------------------------
 
-@mixin container{
-  max-width: 650px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
 
-#container{
-  @include container;
-}
-
-article{ margin-bottom: 50px }
-
-h1{ font-size: 40px }
-h1 a { font-size: 32px }
-h2 { margin-bottom: 10px; margin-top: 50px}
-
-.meta, .quiet{ font-size: 80% }
-.quiet{ margin-top: -10px; color: #999; font-style: oblique }
-
-pre{  @include border-radius(5px); color: white; background: black; padding: 5px; font-size: 12px }
-
-@media all and (max-width: 850px){ 
-  #git-ribbon{ display: none }
-}
+@import "colors";
+@import "mixins";
+@import "base";
+@import "typography";
+@import "media";

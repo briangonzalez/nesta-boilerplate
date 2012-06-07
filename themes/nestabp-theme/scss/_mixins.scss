@@ -1,0 +1,8 @@
+//  Place all of your mixins into a single file for easy access. 
+//
+
+@mixin container{
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
